@@ -110,7 +110,7 @@ def vowel_consonant_count(sentence):
       else:
         consonants_count +=1
 
- return vowels_count, consonants_count
+ return vowels_count, consonants_count #...returning the outcomes
 
 sentence = input('Enter a string: ')
 vowels, consonants = vowel_consonant_count(sentence)
